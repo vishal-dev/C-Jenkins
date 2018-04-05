@@ -1,3 +1,4 @@
 	FROM gcc:4.9
-	WORKDIR . 
+	COPY . .
+	WORKDIR .
 	CMD ["./hello"]
